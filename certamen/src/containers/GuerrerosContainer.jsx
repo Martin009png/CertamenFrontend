@@ -26,7 +26,7 @@ function GuerrerosContainer() {
     };
 
     return (
-
+        //Se deja todo en el ThemeProvider para que todo quede del color establecido por mi arriba, si no no serviria de nada
         <ThemeProvider theme={theme}>
             <div>
                 <GuerrerosNavbar />
